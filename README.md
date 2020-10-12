@@ -16,16 +16,23 @@ USER MANUAL
 
 ![Dicovery Board](https://www.terraelectronica.ru/images/icatalog/big/0/02596927.jpg) ![ST-LINK-V2](https://arduino.ua/products_pictures/large_DPC147-11.jpg)
 
-2. Connect the button to PA0 pin on your MCU (skip if you have Discovery)
+2. Buy USB_TO_TTL module(using for UART)
+
+![usb_to_ttl](https://cdn.instructables.com/ORIG/F7K/G2CM/JQMOIAOC/F7KG2CMJQMOIAOC.jpg?auto=webp&frame=1&fit=bounds&md=b7d65f3903e278b1f75925aabfb9b7c5)
+
+3. Connect the button to PA0 pin on your MCU (skip if you have Discovery)
 
 ![Pull-Down](https://i.ibb.co/ph9tXwk/Untitled-design.png)
 
-3. Clone this repository
-4. Install the STM32CubeIDE
-5. Create the empty STM32 project
-6. Copy folder from repo to your project
-7. Build this - CTRL+B
-8. Connect ST-LINK-V2 to SWD pins of MCU (or mini-USB in Discovery Board)
-9. Press "Run" button
-10. Enjoy!
+4. Clone this repository
+5. Install the STM32CubeIDE
+6. Install PuTTy
+7. Create the empty STM32 project
+8. Copy folder from repo to your project
+9. Build this - CTRL+B
+10. Connect ST-LINK-V2 to SWD pins of MCU (or mini-USB in Discovery Board) 
+11. Connect PA2(TX) pin to RX on USB_TO_TTL module and USB side connect to PC
+12. Open the PuTTy and choose serial, 115200 boud
+13. Press "Run" button in STM32CubeIDE
+14. Enjoy!
 

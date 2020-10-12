@@ -32,7 +32,11 @@ USER MANUAL
 9. Build this - CTRL+B
 10. Connect ST-LINK-V2 to SWD pins of MCU (or mini-USB in Discovery Board) 
 11. Connect PA2(TX) pin to RX on USB_TO_TTL module and USB side connect to PC
+
+![myBoard](https://i.ibb.co/k48Rgmr/photo-2020-10-12-09-47-25.jpg)
+
 12. Open the PuTTy and choose serial, 115200 boud
 13. Press "Run" button in STM32CubeIDE
 14. Enjoy!
 
+![output](https://i.ibb.co/DRkgPPG/image.png)
